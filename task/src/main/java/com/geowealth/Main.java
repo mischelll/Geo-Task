@@ -1,6 +1,7 @@
 package com.geowealth;
 
 import com.geowealth.task.Task;
+import com.geowealth.task.WordsLoader;
 
 import java.net.URISyntaxException;
 import java.time.LocalDateTime;
@@ -8,7 +9,7 @@ import java.time.LocalDateTime;
 public class Main {
 
     public static void main(String[] args) throws URISyntaxException {
-        var task = new Task();
+        var task = new Task(new WordsLoader());
         var startTime = System.currentTimeMillis();
         System.out.println("START TIME (TASK): " + LocalDateTime.now());
         var allValid9LetterWords = task.findAllValid9LetterWords();

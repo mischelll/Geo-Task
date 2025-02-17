@@ -10,8 +10,8 @@ public class Task {
 
     private final WordsLoader wordsLoader;
 
-    public Task() {
-        wordsLoader = new WordsLoader();
+    public Task(WordsLoader wordsLoader) {
+        this.wordsLoader = wordsLoader;
     }
 
     /**
