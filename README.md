@@ -3,8 +3,8 @@
 ## Solution for: Find 9 letter words that are still valid after removing one letter each time
 
 ### Output of solution
-#### Words found(count): ## 775
-#### Execution time: ## ~1s
+#### Words found(count): 775
+#### Execution time: ~0.2s (excluding words fetch time)
 
 ### Description
 
