@@ -9,7 +9,7 @@
 ### Description
 
 All words in the English language are loaded from a remote URL.
-The program first filters all 9-letter words and then checks each one to see if it the condition:
+The program first filters all 9-letter words and then checks each one to see if it meets the following condition:
  - A word is considered valid if we can progressively remove one letter at a time, and each resulting word (until we get down to a single letter) still exists in the list.
 
 
